@@ -5,7 +5,7 @@
 [![MacOS Catalina](https://img.shields.io/badge/Catalina-10.15-red.svg)](https://www.apple.com/)
 [![MacOS Big Sur](https://img.shields.io/badge/Big_Sur-11.6.2-blue.svg)](https://www.apple.com/macos/big-sur/)
 [![Release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/Cikappa2904/X230-Hackintosh/releases/latest)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/0.7.3)
 
 
 
