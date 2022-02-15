@@ -1,58 +1,25 @@
-# MacOS on ThinkPad X230
+# macOS on ThinkPad X230
 
-<img align="right" src="/Other/Pics/X230.png" alt="Lenovo Thinkpad X230 macOS Hackintosh OpenCore" width="300">
 
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-X230-blue.svg)](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf)
 [![MacOS Catalina](https://img.shields.io/badge/Catalina-10.15-red.svg)](https://www.apple.com/)
-[![MacOS Big Sur](https://img.shields.io/badge/Big_Sur-11.4-blue.svg)](https://www.apple.com/macos/big-sur/)
-[![MacOS Monterey](https://img.shields.io/badge/Monterey-12.0-purple.svg)](https://www.apple.com/macos/monterey-preview/)
-[![Release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/banhbaoxamlan/X230-Hackintosh/releases/latest)
+[![MacOS Big Sur](https://img.shields.io/badge/Big_Sur-11.6.2-blue.svg)](https://www.apple.com/macos/big-sur/)
+[![Release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/Cikappa2904/X230-Hackintosh/releases/latest)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![Donate](https://img.shields.io/badge/-Buy%20me%20a%20coffee-orange.svg)](https://www.paypal.com/paypalme/thebinhluong0519)
 
-Sorry, I no longer use macOS on my X230. If a maintained fork is formed, it will be listed here.
+
+
 
 ## READ THE ENTIRE README.MD BEFORE YOU START
 
 ### I am not responsible for any damages you may cause
 
 - Complete EFI packs are available in the releases page.
-- I will try my best to keep the repo updated with the latest kexts and OpenCore version.
 - Please **do not clone or download** the main branch for daily use: it may include **unstable code** just because it is my repository.
-- This EFI is configured with Catalina and Big Sur. (Not completed for Monterey).
+- This EFI works with Big Sur, should work with Catalina (Monterey has some problems)
 - With every EFI update you retrieve from here please remember to go through the post install guide.
 
-#### Status : WIP
 
-> ## Update
-
-### Recent | [Changelog Archive](/Other/Changelog.md)
-
-## 2021-06-14
-
-### Added
-
-- `SidecarFixup.kext` for enable Sidecar.
-- `RestrictEvents.kext` for Process Blocker.
-- Repo
-  - `EFI-Install_USB` for installing and booting macOS first time.
-  - `README_MONTEREY` for MacOS Monterey.
-
-
-### Changed
-
-- `SSDT-HPET` : used `SSDTTime`.
-- `SSDT-PNLF` : remove `LEVD` not used.
-- `SSDT-PTWK` : fix typo.
-- `SSDT-THINK`: remove `WNTF` not used.
-- `SSDT-XOSI` : add `Windows`.
-- Disabled `SSDT-PTWK` and patch.
-- Updated OpenCore 0.7.1 to the latest commit.
-- Updated kexts to nightly for support MacOS 12.
-
-### Removed
-
-- `XHCI to XHC` rename.
 
 <details>
 <summary><strong> SUMMARY </strong></summary>
@@ -177,36 +144,11 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 
 </details>
 
-<details>
-<summary><strong> BENCHMARKS </strong></summary>
-</br>
 
-- macOS 11.4, EFI OpenCore 0.7.1
-
-| CPU            | Single-Core | Multi-Core |
-| :------------- | ----------: | ---------: |
-| Cinebench R23  |             |       1576 |
-| Geekbench 5    |         694 |       1421 |
-
-| GPU            | OpenCL      | Metal      |
-| :------------- | ----------: | ---------: |
-| Geekbench 5    |        1028 |        193 |
-
-</details>
-
-<details>
-<summary><strong> OTHER REPOSITORIES </strong></summary>
-<br>
-
-- X230-hackintosh repositories:
-  - [i0Ek3/X230-Hackintosh-Backup](https://github.com/i0Ek3/X230-Hackintosh-Backup).
-
-</details>
 
 > ## CONTACT
 
-- Email: thebinhluong0519@gmail.com
-- Telegram: +84 (867)-450-107
+- Email: 2904cikappa@gmail.com
 
 > ## SUPPORT
 
@@ -221,5 +163,6 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 - [Dortania](https://github.com/dortania) for for the OpenCore Install Guide.
 - [simprecicchiani](https://github.com/simprecicchiani) for inspirational ThinkPad configurations.
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC**.
+- [banhbaoxamlan](https://github.com/banhbaoxamlan/X230-Hackintosh) for the original EFI
 
 </details>
